@@ -265,6 +265,12 @@ figure button[name="play"]:hover{
     animation: flaming 1s linear infinite alternate 0s forwards;
 }
 
+.section__name{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;
+}
+
 @keyframes flaming{
     0%{
         background-color: #fff;
@@ -319,7 +325,7 @@ span.call{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FD8E0E;
+    background-color: #fd8e0e;
 }
 
 .sticky + .content {
@@ -410,4 +416,21 @@ li {
     align-items: normal;
     grid-template-columns: 20% 20% 20% 20% 20%;
     padding-bottom: 80px;
+}
+
+.send__button{
+    padding: 4px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 2px 0px black;
+}
+
+.send__button:hover{
+    top: -83px;
+    color: black;
+    background-color: #fd8e0e;
+    box-shadow: 0 1px 0px black;
+    transition-duration: 0.3s;
 }
